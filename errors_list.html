@@ -1,0 +1,16 @@
+<template name="meteorErrors">
+  {{#if errors.count}}
+    <div class="alert alert-danger">
+      <h4>La operación no pudo completarse, revise los errores:</h4>
+      <ul>
+        {{#each errors}}
+          {{> meteorError}}
+        {{/each}}
+      </ul>
+    </div>
+  {{/if}}
+</template>
+
+<template name="meteorError">
+  <li>{{message}}</li>
+</template>

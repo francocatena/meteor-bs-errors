@@ -1,0 +1,10 @@
+{
+  "name": "bs-errors",
+  "description": "Display application errors to the user using Bootstrap",
+  "homepage": "https://github.com/francocatena/meteor-bs-errors",
+  "author": "Franco Catena <francocatena@gmail.com>",
+  "version": "0.1.0",
+  "git": "https://github.com/francocatena/meteor-bs-errors",
+  "packages": {
+  }
+}
