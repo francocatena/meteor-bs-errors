@@ -11,7 +11,7 @@ Tinytest.addAsync('Errors template works', function(test, done) {
   Errors.throw('A new error!')
   test.equal(Errors.collection.find({ seen: false }).count(), 1)
 
-  UI.insert(UI.render(Template.meteorErrors), document.body)
+  UI.insert(UI.render(Template.errors), document.body)
 
   Meteor.setTimeout(function() {
     test.equal(Errors.collection.find({ seen: false }).count(), 0)
