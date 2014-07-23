@@ -3,7 +3,7 @@
   "description": "Display application errors to the user using Bootstrap",
   "homepage": "https://github.com/francocatena/meteor-bs-errors",
   "author": "Franco Catena <francocatena@gmail.com>",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "git": "https://github.com/francocatena/meteor-bs-errors",
   "packages": {
   }
